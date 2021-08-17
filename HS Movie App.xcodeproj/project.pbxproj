@@ -9,12 +9,18 @@
 /* Begin PBXBuildFile section */
 		01050C9326C9B98800CEC0C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01050C9226C9B98800CEC0C1 /* AppDelegate.swift */; };
 		01050C9526C9B98800CEC0C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01050C9426C9B98800CEC0C1 /* SceneDelegate.swift */; };
-		01050C9726C9B98800CEC0C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01050C9626C9B98800CEC0C1 /* ViewController.swift */; };
+		01050C9726C9B98800CEC0C1 /* MovieListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01050C9626C9B98800CEC0C1 /* MovieListViewController.swift */; };
 		01050C9A26C9B98800CEC0C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01050C9826C9B98800CEC0C1 /* Main.storyboard */; };
 		01050C9C26C9B98A00CEC0C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01050C9B26C9B98A00CEC0C1 /* Assets.xcassets */; };
 		01050C9F26C9B98A00CEC0C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01050C9D26C9B98A00CEC0C1 /* LaunchScreen.storyboard */; };
 		01050CAA26C9B98A00CEC0C1 /* HS_Movie_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01050CA926C9B98A00CEC0C1 /* HS_Movie_AppTests.swift */; };
 		01050CB526C9B98A00CEC0C1 /* HS_Movie_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01050CB426C9B98A00CEC0C1 /* HS_Movie_AppUITests.swift */; };
+		01050CC326C9BF6D00CEC0C1 /* MovieData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01050CC226C9BF6D00CEC0C1 /* MovieData.swift */; };
+		01050CCD26C9CA2200CEC0C1 /* APIServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01050CCC26C9CA2200CEC0C1 /* APIServices.swift */; };
+		01050D1126CAF36100CEC0C1 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01050D0F26CAF36100CEC0C1 /* MovieTableViewCell.swift */; };
+		01050D1226CAF36100CEC0C1 /* MovieTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01050D1026CAF36100CEC0C1 /* MovieTableViewCell.xib */; };
+		01050D1626CB2E4F00CEC0C1 /* MovieListViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01050D1526CB2E4F00CEC0C1 /* MovieListViewControllerTest.swift */; };
+		01050D1826CB347900CEC0C1 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 01050D1726CB347900CEC0C1 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +44,7 @@
 		01050C8F26C9B98800CEC0C1 /* HS Movie App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HS Movie App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		01050C9226C9B98800CEC0C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		01050C9426C9B98800CEC0C1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		01050C9626C9B98800CEC0C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		01050C9626C9B98800CEC0C1 /* MovieListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewController.swift; sourceTree = "<group>"; };
 		01050C9926C9B98800CEC0C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		01050C9B26C9B98A00CEC0C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01050C9E26C9B98A00CEC0C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +55,12 @@
 		01050CB026C9B98A00CEC0C1 /* HS Movie AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HS Movie AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		01050CB426C9B98A00CEC0C1 /* HS_Movie_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HS_Movie_AppUITests.swift; sourceTree = "<group>"; };
 		01050CB626C9B98A00CEC0C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01050CC226C9BF6D00CEC0C1 /* MovieData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieData.swift; sourceTree = "<group>"; };
+		01050CCC26C9CA2200CEC0C1 /* APIServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServices.swift; sourceTree = "<group>"; };
+		01050D0F26CAF36100CEC0C1 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
+		01050D1026CAF36100CEC0C1 /* MovieTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieTableViewCell.xib; sourceTree = "<group>"; };
+		01050D1526CB2E4F00CEC0C1 /* MovieListViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewControllerTest.swift; sourceTree = "<group>"; };
+		01050D1726CB347900CEC0C1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +91,7 @@
 		01050C8626C9B98800CEC0C1 = {
 			isa = PBXGroup;
 			children = (
+				01050D1726CB347900CEC0C1 /* README.md */,
 				01050C9126C9B98800CEC0C1 /* HS Movie App */,
 				01050CA826C9B98A00CEC0C1 /* HS Movie AppTests */,
 				01050CB326C9B98A00CEC0C1 /* HS Movie AppUITests */,
@@ -99,12 +112,12 @@
 		01050C9126C9B98800CEC0C1 /* HS Movie App */ = {
 			isa = PBXGroup;
 			children = (
-				01050C9226C9B98800CEC0C1 /* AppDelegate.swift */,
-				01050C9426C9B98800CEC0C1 /* SceneDelegate.swift */,
-				01050C9626C9B98800CEC0C1 /* ViewController.swift */,
-				01050C9826C9B98800CEC0C1 /* Main.storyboard */,
+				01050CC926C9C5C500CEC0C1 /* Common */,
+				01050CC826C9C5B200CEC0C1 /* API Services */,
+				01050CC426C9BF7300CEC0C1 /* Model */,
+				01050CC526C9BF7F00CEC0C1 /* Views */,
+				01050CC626C9BF8A00CEC0C1 /* Controllers */,
 				01050C9B26C9B98A00CEC0C1 /* Assets.xcassets */,
-				01050C9D26C9B98A00CEC0C1 /* LaunchScreen.storyboard */,
 				01050CA026C9B98A00CEC0C1 /* Info.plist */,
 			);
 			path = "HS Movie App";
@@ -114,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				01050CA926C9B98A00CEC0C1 /* HS_Movie_AppTests.swift */,
+				01050D1526CB2E4F00CEC0C1 /* MovieListViewControllerTest.swift */,
 				01050CAB26C9B98A00CEC0C1 /* Info.plist */,
 			);
 			path = "HS Movie AppTests";
@@ -126,6 +140,58 @@
 				01050CB626C9B98A00CEC0C1 /* Info.plist */,
 			);
 			path = "HS Movie AppUITests";
+			sourceTree = "<group>";
+		};
+		01050CC426C9BF7300CEC0C1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				01050CC226C9BF6D00CEC0C1 /* MovieData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		01050CC526C9BF7F00CEC0C1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				01050C9D26C9B98A00CEC0C1 /* LaunchScreen.storyboard */,
+				01050C9826C9B98800CEC0C1 /* Main.storyboard */,
+				01050D1326CAFEA000CEC0C1 /* XIB */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		01050CC626C9BF8A00CEC0C1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				01050C9626C9B98800CEC0C1 /* MovieListViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		01050CC826C9C5B200CEC0C1 /* API Services */ = {
+			isa = PBXGroup;
+			children = (
+				01050CCC26C9CA2200CEC0C1 /* APIServices.swift */,
+			);
+			name = "API Services";
+			sourceTree = "<group>";
+		};
+		01050CC926C9C5C500CEC0C1 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				01050C9426C9B98800CEC0C1 /* SceneDelegate.swift */,
+				01050C9226C9B98800CEC0C1 /* AppDelegate.swift */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		01050D1326CAFEA000CEC0C1 /* XIB */ = {
+			isa = PBXGroup;
+			children = (
+				01050D0F26CAF36100CEC0C1 /* MovieTableViewCell.swift */,
+				01050D1026CAF36100CEC0C1 /* MovieTableViewCell.xib */,
+			);
+			path = XIB;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +299,8 @@
 			files = (
 				01050C9F26C9B98A00CEC0C1 /* LaunchScreen.storyboard in Resources */,
 				01050C9C26C9B98A00CEC0C1 /* Assets.xcassets in Resources */,
+				01050D1826CB347900CEC0C1 /* README.md in Resources */,
+				01050D1226CAF36100CEC0C1 /* MovieTableViewCell.xib in Resources */,
 				01050C9A26C9B98800CEC0C1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,8 +326,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01050C9726C9B98800CEC0C1 /* ViewController.swift in Sources */,
+				01050C9726C9B98800CEC0C1 /* MovieListViewController.swift in Sources */,
+				01050D1126CAF36100CEC0C1 /* MovieTableViewCell.swift in Sources */,
 				01050C9326C9B98800CEC0C1 /* AppDelegate.swift in Sources */,
+				01050CCD26C9CA2200CEC0C1 /* APIServices.swift in Sources */,
+				01050CC326C9BF6D00CEC0C1 /* MovieData.swift in Sources */,
 				01050C9526C9B98800CEC0C1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +340,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				01050CAA26C9B98A00CEC0C1 /* HS_Movie_AppTests.swift in Sources */,
+				01050D1626CB2E4F00CEC0C1 /* MovieListViewControllerTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,7 +518,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jigneshpatil.HS-Movie-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -465,7 +537,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jigneshpatil.HS-Movie-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
